@@ -21,19 +21,19 @@ public abstract class AbstractFacade<T> {
 
     public void create(T entity) {
         getEntityManager().persist(entity);
-    }
+    } //добавить сущность в БД
 
     public void edit(T entity) {
         getEntityManager().merge(entity);
-    }
+    } // изменить
 
     public void remove(T entity) {
         getEntityManager().remove(getEntityManager().merge(entity));
-    }
+    } //удалить из БД
 
     public T find(Object id) {
         return getEntityManager().find(entityClass, id);
-    }
+    } //получаем по id
 
     public List<T> findAll() {
         javax.persistence.criteria.CriteriaQuery cq = getEntityManager().getCriteriaBuilder().createQuery();

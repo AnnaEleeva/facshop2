@@ -12,7 +12,7 @@
  
     <security-constraint>
         <web-resource-collection>
-            <web-resource-name>"Быстрый и Умный Интернет-Магазин" – Платёжная Служба</web-resource-name>
+            <web-resource-name>"Агенство "Праздник!"" – Платёжная Служба</web-resource-name>
             <description/>
             <url-pattern>/*</url-pattern>
             <http-method-omission>GET</http-method-omission>

@@ -18,6 +18,9 @@ public class ProductBean extends AbstractFacade<Product> {
     private static final Logger logger
             = Logger.getLogger(ProductBean.class.getCanonicalName());
 
+    // Будет инициализирован контейнером Glassfish
+    // unitName = "facshopPU" - это имя persistence-unit
+    // EntityManager дает возможность выполнять CRUD запросы в БД
     @PersistenceContext(unitName = "facshopPU")
     private EntityManager em;
 

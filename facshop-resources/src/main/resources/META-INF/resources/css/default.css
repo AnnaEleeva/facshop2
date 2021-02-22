@@ -1,6 +1,6 @@
 html,body {
     background: white url(#{resource['img:background.jpg']}) repeat-x 50% -26px;
-background-color: darkgrey;
+background-color: pink;
 font-size: 12px;
 font-family: Verdana, "Verdana CE", Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
 margin: 0;
@@ -37,7 +37,7 @@ nav li {
 
 nav li:hover,nav li:focus {
     color: black;
-    background-color: blue;
+    background-color: pink;
     display: block;
     border: #dddddd 1px solid;
     -moz-border-radius: 10px;
@@ -47,7 +47,7 @@ nav li:hover,nav li:focus {
 
 .shipItem:hover {
     color: black;
-    background-color: #707070;
+    background-color: #FFDEAD;
     display: block;
     border: #dddddd 0px solid;
     -moz-border-radius: 10px;
@@ -75,7 +75,7 @@ header {
     position: relative;
     height: 150px;
     background: white url(#{resource['img:top-background.jpg']}) repeat-x;
-background-color: darkgrey;
+background-color: pink;
 width: 100%;
 display: block;
 overflow: auto;
@@ -89,7 +89,7 @@ padding: 10px;
 
 header img {
     position: relative;
-    float:right;
+    float:left;
 
 }
 
@@ -98,7 +98,7 @@ header img {
     float: left;
     position: relative;
     background: white url(#{resource['img:top-background.jpg']}) repeat-x;
-background-color: darkgrey;
+background-color: pink;
 border: none 5px black;
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
@@ -118,7 +118,7 @@ border-radius: 10px;
 }
 
 #breadcrumb a:hover {
-    color: #707070;
+    color: #FFDEAD;
     font-size: 14px;
     text-decoration: underline;
 }
@@ -268,6 +268,7 @@ h1 {
     font-size: 250%;
     font-weight: bold;
     color: white;
+    text-align:center ;
 }
 
 h2 {
@@ -275,13 +276,14 @@ h2 {
     font-weight: bold;
     color: black;
     border-bottom: 3px #000 groove;
-    text-align: left;
+    text-align:center ;
 }
 
 h3 {
     font-size: 150%;
     font-weight: bold;
     color: white;
+    text-align:center ;
 }
 
 #maincol {
@@ -436,7 +438,7 @@ table {
 }
 
 .firstRow {
-    background-color: lightblue;
+    background-color: lightGoldenrod;
     text-align:left;
 
 }
