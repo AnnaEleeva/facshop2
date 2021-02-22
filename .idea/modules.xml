@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/facshop.iml" filepath="$PROJECT_DIR$/facshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facshop-entities/facshop-entities.iml" filepath="$PROJECT_DIR$/facshop-entities/facshop-entities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facshop-events/facshop-events.iml" filepath="$PROJECT_DIR$/facshop-events/facshop-events.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facshop-payment/facshop-payment.iml" filepath="$PROJECT_DIR$/facshop-payment/facshop-payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facshop-resources/facshop-resources.iml" filepath="$PROJECT_DIR$/facshop-resources/facshop-resources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facshop-shipment/facshop-shipment.iml" filepath="$PROJECT_DIR$/facshop-shipment/facshop-shipment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facshop-store/facshop-store.iml" filepath="$PROJECT_DIR$/facshop-store/facshop-store.iml" />
+    </modules>
+  </component>
+</project>

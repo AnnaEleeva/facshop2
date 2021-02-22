@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="facshop-shipment" />
+        <module name="facshop-payment" />
+        <module name="facshop-events" />
+        <module name="facshop-resources" />
+        <module name="facshop-entities" />
+        <module name="facshop-store" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="facshop" target="1.8" />
+      <module name="facshop-entities" target="1.8" />
+      <module name="facshop-events" target="1.8" />
+      <module name="facshop-payment" target="1.8" />
+      <module name="facshop-resources" target="1.8" />
+      <module name="facshop-shipment" target="1.8" />
+      <module name="facshop-store" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
